@@ -2,6 +2,8 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		// trigger GitHub Action
+
 		int N = Integer.parseInt(args[0]);
 		int countLessEqual = 0;
 		int countGreater = 0; 

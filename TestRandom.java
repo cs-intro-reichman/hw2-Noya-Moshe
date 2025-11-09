@@ -2,5 +2,24 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int N = Integer.parseInt(args[0]);
+		int countLessEqual = 0;
+		int countGreater = 0; 
+        
+		for(int i = 0; i < N; i++ ){
+			double ran = Math.random();
+			if(ran <= 0.5){
+				countLessEqual++;
+			} else {
+				countGreater++;
+			}
+		}
+		System.out.println("> 0.5: " + countGreater + " times");
+        System.out.println("<= 0.5: " + countLessEqual + " times");
+		
+		if(countLessEqual != 0){
+		double ratio =(double) countGreater / countLessEqual;
+		  System.out.println("Ratio: " + ratio);	
+		 }
 	}
 }

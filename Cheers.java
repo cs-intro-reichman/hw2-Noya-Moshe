@@ -21,7 +21,7 @@ public class Cheers {
                 if(pos != -1){
                         System.out.println("Give me an " + letter + ": "  + letter + "!");
                 } else{
-                        System.out.println("Give me a " + letter + ": " + letter + "!");
+                        System.out.println("Give me a  " + letter + ": " + letter + "!");
                 }
                 }
             System.out.println("What does that spell?");

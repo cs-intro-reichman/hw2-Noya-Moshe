@@ -15,7 +15,7 @@ public class Cheers {
             String vowels = "AEFHILMNORSX";
 
             for(int i = 0; i < length; i++ ){
-                char letter = name.charAt(i);
+                char letter = Character.toUpperCase(name.charAt(i));
                 int pos = vowels.indexOf(letter);
 
                 if(pos != -1){
